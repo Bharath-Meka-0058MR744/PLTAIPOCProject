@@ -10,7 +10,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT>clear pipeline</COMMENT>
+  <COMMENT>clear pipeline..</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
