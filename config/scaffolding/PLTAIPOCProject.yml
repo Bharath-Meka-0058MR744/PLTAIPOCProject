@@ -22,6 +22,26 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.187
+- serviceName: SalesforceCRMUpdate:updateLoyaltyObject
+  packages:
+  - name: SalesforceCRMUpdate
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.187
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: SalesforceCRMUpdate:updateLoyaltyObjects
+  packages:
+  - name: SalesforceCRMUpdate
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.187
+- serviceName: pub.flow:setHTTPResponse
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
