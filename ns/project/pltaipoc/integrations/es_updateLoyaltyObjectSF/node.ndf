@@ -114,7 +114,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">bhm</value>
-    <value name="lastModifiedDate">1741355069344</value>
+    <value name="lastModifiedDate">1741355297168</value>
     <value name="displayName">es_updateLoyaltyObjectSF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
