@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/Bharath-Meka-0058MR744
   gitUsername: Bharath-Meka-0058MR744
   gitBranch: main
+- name: shopifyDrinkItemsRepo
+  gitServerName: DacherCustomerRepo
+  gitUrl: https://github.com/Bharath-Meka-0058MR744
+  gitUsername: Bharath-Meka-0058MR744
+  gitBranch: main
 services:
 - serviceName: project.pltaipoc.integrations:es_updateLoyaltyObjectSF
   packages:
