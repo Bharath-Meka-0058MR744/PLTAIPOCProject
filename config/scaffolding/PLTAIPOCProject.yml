@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/Bharath-Meka-0058MR744
   gitUsername: Bharath-Meka-0058MR744
   gitBranch: main
-- name: updatePOSRepo
-  version: "1.0"
-  gitServerName: DacherCustomerRepo
-  gitUrl: https://github.com/Bharath-Meka-0058MR744
-  gitUsername: Bharath-Meka-0058MR744
-  gitBranch: main
 - name: ShopifyDrinkItems
   version: "1.0"
   gitServerName: DacherCustomerRepo

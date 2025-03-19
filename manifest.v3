@@ -8,19 +8,18 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="updatePOSRepo">1.0</value>
     <value name="ShopifyDrinkItems">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">36</value>
+  <value name="build">37</value>
   <null name="description"/>
   <value name="created_date">07-03-2025 13:22:58 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-03-19T10:00:15.343333603Z</value>
+  <value name="lastUpdated">2025-03-19T10:00:24.447056414Z</value>
   <value name="wmProjectId">fl6c5f3b51f1d536efa3bd35</value>
   <value name="creator">Bharath Meka</value>
 </Values>
