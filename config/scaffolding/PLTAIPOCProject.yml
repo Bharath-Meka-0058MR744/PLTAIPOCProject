@@ -22,6 +22,44 @@ services:
     version: 10.7.0.0.16
   - name: ShopifyDrinkItems
     version: "1.0"
+- serviceName: ShopifyDrinkItems:applyDiscountOnDrinks
+  packages:
+  - name: ShopifyDrinkItems
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 10.7.0.0.16
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: pub.json:jsonStringToDocument
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: ShopifyDrinkItems:createPriceRule
+  packages:
+  - name: ShopifyDrinkItems
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 10.7.0.0.16
+- serviceName: ShopifyDrinkItems:generateDiscountCode
+  packages:
+  - name: ShopifyDrinkItems
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 10.7.0.0.16
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
