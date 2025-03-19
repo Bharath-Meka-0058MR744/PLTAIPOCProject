@@ -9,18 +9,17 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SalesforceCRMUpdate">1.0</value>
-    <value name="updatePOSRepo">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">24</value>
+  <value name="build">25</value>
   <null name="description"/>
   <value name="created_date">07-03-2025 13:22:58 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-03-19T06:56:54.138894932Z</value>
+  <value name="lastUpdated">2025-03-19T06:59:51.713278494Z</value>
   <value name="wmProjectId">fl6c5f3b51f1d536efa3bd35</value>
   <value name="creator">Bharath Meka</value>
 </Values>
